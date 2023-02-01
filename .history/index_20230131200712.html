@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>18+ I Never</title>
+
+</head>
+
+<body>
+    <button id="myButton" onclick="changeButtonName()"><span2>Eu Nunca </span2> <span>18+</span></button>
+</body>
+
+<script>
+
+    function changeButtonName() {
+        var button = document.getElementById("myButton");
+
+        var names = ["Submit", 
+        "Click Me", 
+        "Go", 
+        "Press", 
+        "Submit Now",
+        
+        ];
+
+        var randomName = names[Math.floor(Math.random() * names.length)];
+        button.innerHTML = randomName;
+    }
+    
+</script>    
+
+</html>

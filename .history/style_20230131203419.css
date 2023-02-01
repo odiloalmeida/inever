@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: transparent;
+    height: 100vh;
+    width: 100vw;
+    border: red 2px solid;
+    color: #f1f1f1;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 5px;
+}
+
+button span {
+    background-image: linear-gradient(to bottom,#800000,#8B0000, red, yellow);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+button span2 {
+    color: red;
+    font-size: 5rem;
+}
+

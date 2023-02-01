@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>18+ I Never</title>
+
+</head>
+
+<body>
+    <button id="myButton" onclick="changeButtonName()"><span>Eu Nunca </span> &#128293 <span2>+18</span2>&#128293</button>
+</body>
+
+<script>
+
+    function changeButtonName() {
+        var button = document.getElementById("myButton");
+
+        var names = ["Beijei alguém dessa turma", 
+        "Senti atração por alguém dessa turma", 
+        "Tomei banho pelado na praia/piscina", 
+        "Fiquei com um professor", 
+        "Fiquei com um amigo e me arrependi",
+        "Fiquei com um amigo e não disse pra ninguém",
+        "Menti sobre ter ficado com uma pessoa",
+        "Bebi tanto que beijei alguém que não queria",
+        "Bebi tanto que esqueci tudo no outro dia",
+        "Vi um nudes de alguém dessa turma",
+        "Desejei o namorado/namorada de um amigo",
+        "Fiquei com alguém por interesse",
+        "Acelerei o ato sexual por que o oral estava ruim",
+        "Bebi pra ter coragem de chegar numa pessoa",
+        "Transei na escola/faculdade",
+        "Transei no chão",
+        "Fiz sexo oral enquanto a pessoa trabalhava",
+        "Fiz sexo oral enquanto a pessoa dirigia",
+        "Usei fantasias sexuais",
+        "Usei plug anal",
+        "Usei um vibrador",
+        "Fiquei com alguém depois neguei pra todo mundo",
+        "Disse pra uma pessoa que a amava sem amar",
+        "Transei no carro",
+        "Broxei no meio do ato sexual",
+        "Desisti de ficar com uma pessoa por que ela estava fedendo",
+        "Fui chupar e estava fedendo muito e desisti",
+        "Me masturbei depois do ato sexual por que não conseguir “chegar lá” com o parceiro",
+        "Fiquei com dois amigos ao mesmo tempo sem eles saberem",
+        "Parei o ato sexual para ir fazer xixi",
+        "Fiz a chuca",
+        "Transei na rua",
+        "Paguei por sexo",
+        "Fiz sexo por dinheiro"
+
+        ];
+
+        var randomName = names[Math.floor(Math.random() * names.length)];
+        button.innerHTML = randomName;
+    }
+    
+</script>    
+
+</html>
