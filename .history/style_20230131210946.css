@@ -21,9 +21,7 @@ button {
     border: red 2px solid;
     font-weight: bold;
     font-size: 3rem;
-    padding: 5px;
-    color: #f1f1f1;
-}
+    padding: 5px;}
 
 button span {
     background-image: linear-gradient(to bottom,#800000,#8B0000, red, yellow);
@@ -31,7 +29,7 @@ button span {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: black;
-    font-size: 3.3rem;
+    font-size: 4rem;
     font-weight: 900;
 }
 

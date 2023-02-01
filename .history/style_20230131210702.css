@@ -22,7 +22,11 @@ button {
     font-weight: bold;
     font-size: 3rem;
     padding: 5px;
-    color: #f1f1f1;
+    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
 }
 
 button span {
@@ -31,7 +35,7 @@ button span {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: black;
-    font-size: 3.3rem;
+    font-size: 4rem;
     font-weight: 900;
 }
 
