@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Bebas Neue', cursive;
 }
 
 body {
@@ -15,7 +12,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: #800000 2px solid;
+    border: red 2px solid;
 }
 
 div {
@@ -32,7 +29,7 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: black;
-    font-size: 7rem;
+    font-size: 3.3rem;
     font-weight: 900;
 }
 
@@ -40,15 +37,15 @@ button {
     background-color: transparent;
     height: 70vh;
     width: 100vw;
-    border: none;
+    border: red 2px solid;
     font-weight: bold;
     font-size: 3rem;
     padding: 5px;
     color: #f1f1f1;
 }
 
-button span {
+button span2 {
     color: #fff;
-    font-size: 12rem;
+    font-size: 5rem;
 }
 

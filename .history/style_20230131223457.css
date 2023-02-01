@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Bebas Neue', cursive;
 }
 
 body {
@@ -32,7 +29,7 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: black;
-    font-size: 7rem;
+    font-size: 4rem;
     font-weight: 900;
 }
 
@@ -47,8 +44,8 @@ button {
     color: #f1f1f1;
 }
 
-button span {
+button span2 {
     color: #fff;
-    font-size: 12rem;
+    font-size: 7rem;
 }
 
